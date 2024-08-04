@@ -1,0 +1,176 @@
+/* EmployeeList.css */
+.employee-list {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.employee-list h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.employee-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.employee-list li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.employee-list li a {
+  text-decoration: none;
+  color: #2196f3;
+  margin-right: 10px;
+}
+
+.employee-list li a:hover {
+  text-decoration: underline;
+}
+
+.employee-list button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.employee-list button:hover {
+  background-color: #d32f2f;
+}
+
+.employee-list p {
+  color: #757575;
+}
+
+.employee-list .link-add {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 1em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.employee-list .link-add:hover {
+  text-decoration: underline;
+}
+
+.employee-list .loading {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.employee-list .error {
+  color: #f44336;
+  font-size: 1.2em;
+}
+
+
+/* EmployeeDetails.css */
+.employee-details {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.employee-details h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.employee-details p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.employee-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.employee-details li {
+  margin-bottom: 5px;
+}
+
+/* AddEmployee.css */
+.add-employee {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.add-employee h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.add-employee label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.add-employee input,
+.add-employee select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.add-employee .contact-methods {
+  margin-top: 20px;
+}
+
+.add-employee .contact-method {
+  margin-bottom: 15px;
+}
+
+.add-employee .contact-method label {
+  display: block;
+}
+
+.add-employee .contact-method input,
+.add-employee .contact-method select {
+  width: auto;
+  display: inline-block;
+}
+
+.add-employee .add-contact-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.add-employee .add-contact-button:hover {
+  background-color: #45a049;
+}
+
+.add-employee .submit-button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.add-employee .submit-button:hover {
+  background-color: #1e88e5;
+}
+
+.error {
+  color: #f44336;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
